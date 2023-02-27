@@ -1,0 +1,57 @@
+.divMain {
+  background-color: whitesmoke;
+  border-top: 1px solid rgb(231, 221, 221);
+}
+.image-div {
+  height: 200px;
+  width: 100%;
+}
+.image-div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* search */
+.divSearch {
+  position: relative;
+}
+.iconSearch {
+  position: absolute;
+  left: 0;
+  padding: 10px 0px 10px 30px;
+}
+.inputSearch {
+  padding: 10px 0px 10px 40px;
+  border: 1px solid rgb(187, 193, 191);
+}
+.select {
+  padding: 5px;
+}
+.linkBox {
+  text-decoration: none;
+}
+/* dark mode  */
+.dark {
+  color: #fff;
+  background-color: rgb(28, 28, 28);
+}
+.light {
+  color: black;
+  background-color: #cfbebe;
+}
+.darkviolet {
+  background-color: rgb(19, 13, 27);
+  color: #fff;
+}
+.pink {
+  background-color: #d9507c;
+  color: black;
+}
+
+@media (max-width: 500px) {
+  .inputSearch {
+    padding: 10px 0px 10px 40px;
+    border: 1px solid rgb(187, 193, 191);
+    width: 500px;
+  }
+}

@@ -1,0 +1,9 @@
+.buttonBack {
+  box-shadow: 1px 1px 1px rgb(71, 67, 67);
+  margin-bottom: 4rem;
+}
+.imgCountry {
+  height: 250px;
+  width: 350px;
+  margin-bottom: 2rem;
+}
